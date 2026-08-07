@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ledger — A Task Journal</title>
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="masthead">
+      <span class="masthead__eyebrow">Daily record</span>
+      <h1 class="masthead__title">Ledger</h1>
+      <p class="masthead__sub">Write it down. Cross it off.</p>
+    </header>
+
+    <section class="entry-row" aria-label="Add a new task">
+      <form id="task-form" class="entry-form">
+        <input
+          id="task-input"
+          type="text"
+          class="entry-form__input"
+          placeholder="Enter a new line item…"
+          autocomplete="off"
+          required
+        />
+        <button type="submit" class="entry-form__submit">Add entry</button>
+      </form>
+    </section>
+
+    <nav class="filters" aria-label="Filter tasks">
+      <button class="filters__btn is-active" data-filter="all">All</button>
+      <button class="filters__btn" data-filter="active">Active</button>
+      <button class="filters__btn" data-filter="completed">Completed</button>
+    </nav>
+
+    <main>
+      <ol id="task-list" class="ledger" aria-live="polite"></ol>
+      <p id="empty-state" class="empty-state" hidden>No entries yet. Add your first line above.</p>
+    </main>
+
+    <footer class="tally">
+      <span id="task-count">0 items</span>
+      <button id="clear-completed" class="tally__clear">Clear completed</button>
+    </footer>
+  </div>
+
+  <script src="./scripts/app.js"></script>
+</body>
+</html>
