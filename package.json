@@ -5,6 +5,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "npx serve src",
     "lint": "eslint src/scripts --no-error-on-unmatched-pattern",
     "build": "node -e \"console.log('Static site — nothing to bundle. Build check passed.')\"",
     "test": "node --test"
