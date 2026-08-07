@@ -13,7 +13,7 @@ mark them complete, filter by status (all/active/completed), remove individual t
 tasks in one action. Tasks persist locally in the browser via `localStorage`, so the list survives a page refresh.
 
 ## Live Deployment
-**Live URL:** [Insert your GitHub Pages URL here after deployment, e.g. https://yourusername.github.io/your-repo-name/]
+**Live URL:** https://farookfasmina.github.io/System_Admin/
 
 ## Technologies Used
 - HTML5 / CSS3 / Vanilla JavaScript (ES Modules)
@@ -100,5 +100,5 @@ using two branches rather than two people:
 Full commands are in the implementation guide used to build this project.
 
 ## Build Status
-![CI Pipeline](https://github.com/[username]/[repo-name]/actions/workflows/ci.yml/badge.svg)
-![Deploy to GitHub Pages](https://github.com/[username]/[repo-name]/actions/workflows/deploy.yml/badge.svg)
+![CI Pipeline](https://github.com/farookfasmina/System_Admin/actions/workflows/ci.yml/badge.svg)
+![Deploy to GitHub Pages](https://github.com/farookfasmina/System_Admin/actions/workflows/deploy.yml/badge.svg)
