@@ -39,7 +39,7 @@ This project followed a standard Git Flow branching model:
 - `feature/*` - Individual work branches, one per feature, merged into `develop` via reviewed pull requests
 
 ## Individual Contributions
-### [Your Name]
+### Fasmina
 - Initialized repository structure, `.gitignore`, and branch strategy (`main` / `develop` / `feature/*`).
 - Built the CI pipeline (`ci.yml`): install, lint, build check, and unit tests on every push/PR.
 - Built the deployment pipeline (`deploy.yml`): automatic GitHub Pages deploy on merge to `main`.
