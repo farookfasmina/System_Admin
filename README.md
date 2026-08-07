@@ -58,11 +58,11 @@ This project followed a standard Git Flow branching model:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [your-repository-url]
+   git clone https://github.com/farookfasmina/System_Admin.git
    ```
 2. Navigate into the directory:
    ```bash
-   cd [project-name]
+   cd System_Admin
    ```
 3. Install dependencies:
    ```bash
