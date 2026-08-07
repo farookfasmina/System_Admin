@@ -1,10 +1,10 @@
 # Ledger — A Task Journal
 
 ## Group Information
-- **Student 1:** [Your Full Name as in LMS] - [Your Student ID] - Role: Solo Developer (DevOps + Full-Stack)
+- **Student 1:** farook fathima fasmina - itbin-2211-0116 - Role: Solo Developer (DevOps + Full-Stack)
 
-> **Note on team size:** This assignment was completed individually. I contacted [Instructor Name] regarding solo
-> submission on [date]. All DevOps Engineer and Full-Stack Developer responsibilities (repository setup, CI/CD,
+> **Note on team size:** This assignment was completed individually. I contacted Isuru Samarappulige regarding solo
+> submission on 07th August 2026. All DevOps Engineer and Full-Stack Developer responsibilities (repository setup, CI/CD,
 > branching, feature development, and documentation) were carried out by a single contributor.
 
 ## Project Description
@@ -39,7 +39,7 @@ This project followed a standard Git Flow branching model:
 - `feature/*` - Individual work branches, one per feature, merged into `develop` via reviewed pull requests
 
 ## Individual Contributions
-### [Your Name]
+### Fasmina
 - Initialized repository structure, `.gitignore`, and branch strategy (`main` / `develop` / `feature/*`).
 - Built the CI pipeline (`ci.yml`): install, lint, build check, and unit tests on every push/PR.
 - Built the deployment pipeline (`deploy.yml`): automatic GitHub Pages deploy on merge to `main`.
@@ -58,11 +58,11 @@ This project followed a standard Git Flow branching model:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [your-repository-url]
+   git clone https://github.com/farookfasmina/System_Admin.git
    ```
 2. Navigate into the directory:
    ```bash
-   cd [project-name]
+   cd System_Admin
    ```
 3. Install dependencies:
    ```bash
