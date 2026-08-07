@@ -1,10 +1,10 @@
 # Ledger — A Task Journal
 
 ## Group Information
-- **Student 1:** [Your Full Name as in LMS] - [Your Student ID] - Role: Solo Developer (DevOps + Full-Stack)
+- **Student 1:** farook fathima fasmina - itbin-2211-0116 - Role: Solo Developer (DevOps + Full-Stack)
 
-> **Note on team size:** This assignment was completed individually. I contacted [Instructor Name] regarding solo
-> submission on [date]. All DevOps Engineer and Full-Stack Developer responsibilities (repository setup, CI/CD,
+> **Note on team size:** This assignment was completed individually. I contacted Isuru Samarappulige regarding solo
+> submission on 07th August 2026. All DevOps Engineer and Full-Stack Developer responsibilities (repository setup, CI/CD,
 > branching, feature development, and documentation) were carried out by a single contributor.
 
 ## Project Description
