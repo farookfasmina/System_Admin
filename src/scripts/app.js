@@ -91,7 +91,7 @@ function render() {
     const removeBtn = document.createElement("button");
     removeBtn.type = "button";
     removeBtn.className = "ledger__remove";
-    removeBtn.textContent = "remove";
+    removeBtn.innerHTML = "&times;";
     removeBtn.setAttribute("aria-label", `Remove "${task.text}"`);
     removeBtn.addEventListener("click", () => removeTask(task.id));
 
